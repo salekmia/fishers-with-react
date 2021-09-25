@@ -22,6 +22,7 @@ const Main = () => {
         }
     }
 
+    // total salary count
     let total = 0
     for(const element of summary) {
         total = total + parseInt(element.salary)
@@ -40,7 +41,7 @@ const Main = () => {
             <div className="col-md-4">
                 <div className="border p-4 rounded ms-4 sticky-top" style={{ width: "300px", height: "350px", overflow: "scroll"}}>
                     <h3>Players: {summary.length}</h3>
-                    <h4>Total Salary: {total}</h4>
+                    <h4>Total Salary: ${total}</h4>
                     {
                         summary.map(player => <Summary player={player} key={player.id}></Summary>)
                     }
