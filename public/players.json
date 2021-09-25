@@ -1,0 +1,152 @@
+[
+    {
+      "name":"Jadon Sancho",
+      "id":"1",
+      "team":"Man Utd",
+      "age":"21",
+      "img":"./players/player-1.jpg",
+      "salary":"2000",
+      "nationality":"GBR",
+      "position":"AM (RL)"
+    },
+    {
+      "name":"André Silva",
+      "id":"2",
+      "team":"RB Leipzig",
+      "age":"25",
+      "img":"./players/player-2.jpg",
+      "salary":"2020",
+      "nationality":"PRT",
+      "position":"S (C)"
+    },
+    {
+      "name":"Erling Haaland",
+      "id":"3",
+      "team":"Dortmund",
+      "age":"21",
+      "img":"./players/player-3.jpg",
+      "salary":"2040",
+      "nationality":"NOR",
+      "position":"S (C)"
+    },
+    {
+      "name":"Éder Militão",
+      "id":"4",
+      "team":"Real Madrid",
+      "age":"23",
+      "img":"./players/player-4.jpg",
+      "salary":"2002",
+      "nationality":"BRA",
+      "position":"D (CR)"
+    },
+    {
+      "name":"Ruslan Malinovskyi",
+      "id":"5",
+      "team":"Atalanta",
+      "age":"28",
+      "img":"./players/player-5.jpg",
+      "salary":"2050",
+      "nationality":"UKR",
+      "position":"AM, F (C)"
+    },
+    {
+      "name":"Edmond Tapsoba",
+      "id":"6",
+      "team":"Leverkusen",
+      "age":"22",
+      "img":"./players/player-6.jpg",
+      "salary":"3000",
+      "nationality":"BFA",
+      "position":"D (CL)"
+    },
+    {
+      "name":"Trent Alexander-Arnold",
+      "id":"7",
+      "team":"Liverpool",
+      "age":"22",
+      "img":"./players/player-7.jpg",
+      "salary":"2200",
+      "nationality":"GBR",
+      "position":"D (R)"
+    },
+    {
+      "name":"Frenkie de Jong",
+      "id":"8",
+      "team":"Barcelona",
+      "age":"24",
+      "img":"./players/player-8.jpg",
+      "salary":"2700",
+      "nationality":"NLD",
+      "position":"M, AM (C)"
+    },
+    {
+      "name":"Illan Meslier",
+      "id":"9",
+      "team":"Leeds Utd",
+      "age":"21",
+      "img":"./players/player-9.jpg",
+      "salary":"2030",
+      "nationality":"FRA",
+      "position":"GK"
+    },
+    {
+      "name":"Matheus Pereira",
+      "id":"10",
+      "team":"Al Hilal Saudi",
+      "age":"25",
+      "img":"./players/player-10.jpg",
+      "salary":"2100",
+      "nationality":"BRA",
+      "position":"AM (CR)"
+    },
+    {
+      "name":"Rodri",
+      "id":"11",
+      "team":"Man City",
+      "age":"23",
+      "img":"./players/player-11.jpg",
+      "salary":"2900",
+      "nationality":"ESP",
+      "position":"M, DM (C)"
+    },
+    {
+      "name":"Yves Bissouma",
+      "id":"12",
+      "team":"Brighton",
+      "age":"28",
+      "img":"./players/player-12.jpg",
+      "salary":"2060",
+      "nationality":"MLI",
+      "position":"DM, M (C)"
+    },
+    {
+      "name":"Nathaniel Phillips",
+      "id":"13",
+      "team":"Liverpool",
+      "age":"22",
+      "img":"./players/player-13.jpg",
+      "salary":"2800",
+      "nationality":"GBR",
+      "position":"D (CR)"
+    },
+    {
+      "name":"Maxence Lacroix",
+      "id":"14",
+      "team":"Wolfsburg",
+      "age":"29",
+      "img":"./players/player-14.jpg",
+      "salary":"2460",
+      "nationality":"FRA",
+      "position":"D (C)"
+    },
+    {
+      "name":"Eric Garcia",
+      "id":"15",
+      "team":"Barcelona",
+      "age":"20",
+      "img":"./players/player-15.jpg",
+      "salary":"2087",
+      "nationality":"ESP",
+      "position":"D (C)"
+    }
+  ]
