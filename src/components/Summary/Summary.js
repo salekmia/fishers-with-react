@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Summary = (props) => {
-    const {name} = props.player
+    const {name} = props.fisher
     
  
     return (

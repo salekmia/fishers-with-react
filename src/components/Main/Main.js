@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import Player from '../Player/Player';
+import Fisher from '../Fisher/Fisher';
 import Summary from '../Summary/Summary';
 
 const Main = () => {
-    const [players, setPlayers] = useState([])
+    const [fishers, setPlayers] = useState([])
     const [summary, setSummary] = useState([])
 
     useEffect(() => {
-        fetch('./players.json')
+        fetch('./fishers.json')
         .then(res => res.json())
         .then(data => setPlayers(data))
     }, [])
 
     // event handler
-    const hireBtn = (player) => {
-        if(summary.includes(player)) {
+    const hireBtn = (fisher) => {
+        if(summary.includes(fisher)) {
             alert('Alredy added!')
         } else {
-            const newSummary = [...summary, player]
+            const newSummary = [...summary, fisher]
             setSummary(newSummary)
         }
     }
@@ -33,17 +33,17 @@ const Main = () => {
             <div className="col-md-8">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
-                        players.map(player => <Player player={player} key={player.id} hireBtn={hireBtn}></Player>)
+                        fishers.map(fisher => <Fisher fisher={fisher} key={fisher.id} hireBtn={hireBtn}></Fisher>)
                     }
                 </div>
             </div>
             
             <div className="col-md-4">
                 <div className="border p-4 rounded ms-4 sticky-top" style={{ width: "300px", height: "350px", overflow: "scroll"}}>
-                    <h3>Players: {summary.length}</h3>
+                    <h3>Fishers: {summary.length}</h3>
                     <h4>Total Salary: ${total}</h4>
                     {
-                        summary.map(player => <Summary player={player} key={player.id}></Summary>)
+                        summary.map(fisher => <Summary fisher={fisher} key={fisher.id}></Summary>)
                     }
                 </div>
             </div>

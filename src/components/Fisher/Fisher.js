@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Player = (props) => {
-    const {name, img, age, position, team, salary, fb, insta} = props.player
+const Fisher = (props) => {
+    const {name, img, age, category, nationality, salary, fb, insta} = props.fisher
     return (
         <div className="col">
             <div className="card h-100 border-0 shadow-lg pt-2">
@@ -11,11 +11,11 @@ const Player = (props) => {
                 <h4 className="card-title text-center">{name}</h4>
                 <div className="d-flex justify-content-between">
                     <p className="card-text">Age: <span className="fw-bold">{age}</span></p>
-                    <p className="card-text">Position: <span className="fw-bold">{position}</span></p>
+                    <p className="card-text">Category: <span className="fw-bold">{category}</span></p>
                 </div>
 
                 <div className="d-flex justify-content-between">
-                    <p className="card-text">Team: <span className="fw-bold">{team}</span></p>
+                    <p className="card-text">Nationality: <span className="fw-bold">{nationality}</span></p>
                     <p className="card-text">Salary: <span className="fw-bold">${salary}</span></p>
                 </div>
 
@@ -28,7 +28,7 @@ const Player = (props) => {
 
                     {/* Button */}
                 <div className="d-flex justify-content-center my-4">
-                    <button onClick={() => props.hireBtn(props.player)} className="btn btn-outline-secondary"><i className="far fa-heart"></i> Hire Me</button>
+                    <button onClick={() => props.hireBtn(props.fisher)} className="btn btn-outline-secondary"><i className="far fa-heart"></i> Hire Me</button>
                 </div>
             </div>
             </div>
@@ -36,4 +36,4 @@ const Player = (props) => {
     );
 };
 
-export default Player;
+export default Fisher;
