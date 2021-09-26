@@ -1,6 +1,6 @@
 # Get Famouse Fisher Man
 
-My project live link is [Get Famouse Fisher Man.](https://github.com/facebook/create-react-app).
+My project live link is [Get Famouse Fisher Man.](https://reactjs-assingment8-fishers.netlify.app/).
 
 ## About my site
 
