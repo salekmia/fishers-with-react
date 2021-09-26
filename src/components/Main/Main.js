@@ -3,13 +3,13 @@ import Fisher from '../Fisher/Fisher';
 import Summary from '../Summary/Summary';
 
 const Main = () => {
-    const [fishers, setPlayers] = useState([])
+    const [fishers, setFishers] = useState([])
     const [summary, setSummary] = useState([])
 
     useEffect(() => {
         fetch('./fishers.json')
         .then(res => res.json())
-        .then(data => setPlayers(data))
+        .then(data => setFishers(data))
     }, [])
 
     // event handler
